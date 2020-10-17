@@ -21,8 +21,8 @@ namespace Inclass_Assign1
                 }
 
                 Console.WriteLine("\n\n\tSum of integer values " + isum);
-                Console.WriteLine("\n\n\tSum of decimal values " + dsum);
-                Console.WriteLine("\n\n\tSum of all input " + (isum + dsum));
+                Console.WriteLine("\n\n\tSum of decimal values " + Math.Round(dsum,2));
+                Console.WriteLine("\n\n\tSum of all input " + Math.Round(isum + dsum,2));
             }
         }
     }
